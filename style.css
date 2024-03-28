@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(5, 10, 25);
+    padding:0px;
+    margin:0px;
+    color: white;
+}
+
+p {
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    text-indent:3em;
+}
+
+.paragraph {
+    padding-left: 20%;
+    padding-right:20%;
+}
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("trumanStairs.jpeg");
+    min-height: 75%;
+    height: 500px;
+}
+
+.menu {
+    display: none;
+}
+
+.header-title {
+    padding-left:4%;
+    padding-top:6%;
+    color: black;
+}
+
+.header-subtitle {
+    padding-left:5%;
+    font-size:20px;
+    padding-top:2%;
+    color: black;
+}
+
+.title {
+    color: white;
+    font-size: 64px;
+    line-height: 64px;
+    padding-top: 24px;
+}
+
+#page-select {
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:0px;
+    background-color:black;
+    position:fixed;
+}
+
+.page-select-button {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.char-img {
+    width:45%;
+}
+
+#char-imgs {
+    justify-content: space-around;
+    width:300px;
+    height:100%;
+}
+
+figure {
+    display:inline-block;
+    width: 45%;
+    margin:0px;
+}
